@@ -80,7 +80,7 @@ class plugins
      * @param  string  $hook  name of the hook
      * @param  array   $params params as array
      */
-    public static function call($hook, $params = false)
+    public static function call($hook, $params = True)
     {
         // look if hooks existing
         if (count(self::$plugins[$hook]) != 0) {
